@@ -93,7 +93,11 @@ if page == "Home":
     """, unsafe_allow_html=True)
     st.markdown('<div class="main-title">🍔 Ebad Foods</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Delicious Bites Delivered Fast</div>', unsafe_allow_html=True)
-    st.image("https://tse3.mm.bing.net/th?id=OIP.LxmmIGwq8dQ8nrCAMfm_hgHaFj&pid=Api&P=0&h=220")
+    st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.image("https://tse3.mm.bing.net/th?id=OIP.LxmmIGwq8dQ8nrCAMfm_hgHaFj&pid=Api&P=0&h=220", width=600)
+    st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown("---")
 
