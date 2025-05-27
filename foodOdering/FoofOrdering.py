@@ -93,7 +93,7 @@ if page == "Home":
     """, unsafe_allow_html=True)
     st.markdown('<div class="main-title">🍔 Ebad Foods</div>', unsafe_allow_html=True)
     st.markdown('<div class="subtitle">Delicious Bites Delivered Fast</div>', unsafe_allow_html=True)
-    st.image("https://tse3.mm.bing.net/th?id=OIP.LxmmIGwq8dQ8nrCAMfm_hgHaFj&pid=Api&P=0&h=220", use_container_width=True)
+    st.image("https://tse3.mm.bing.net/th?id=OIP.LxmmIGwq8dQ8nrCAMfm_hgHaFj&pid=Api&P=0&h=220")
 
     st.markdown("---")
 
